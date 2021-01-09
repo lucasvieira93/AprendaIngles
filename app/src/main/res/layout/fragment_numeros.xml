@@ -22,7 +22,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.75" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/button1"
         android:layout_width="130dp"
         android:layout_height="130dp"
@@ -36,7 +36,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="spread" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/button2"
         android:layout_width="130dp"
         android:layout_height="130dp"
@@ -50,7 +50,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="spread" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/button3"
         android:layout_width="130dp"
         android:layout_height="130dp"
@@ -62,7 +62,7 @@
         app:layout_constraintStart_toStartOf="@+id/button1"
         app:layout_constraintTop_toBottomOf="@+id/button1" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/button4"
         android:layout_width="130dp"
         android:layout_height="130dp"
@@ -74,7 +74,7 @@
         app:layout_constraintStart_toStartOf="@+id/button2"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/button5"
         android:layout_width="130dp"
         android:layout_height="130dp"
